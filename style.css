@@ -4,28 +4,105 @@ body {
     padding: 40px 0 40px 0;
 }
 
+h1 {
+    font-size: 36px;
+} 
+
 h2 {
     font-size: 28px;
 }
 
-h1 {
-    font-size: 36px;
+p {
+    line-height: 1.5;
 }
 
 span {
     color: gray;
 }
 
-img {
-    width: 150px;
-    height: 150px;
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.container {
+    box-shadow: 0 0 25px gray;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 section, header {
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+header ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.address-icon {
+    height: 20px;
+    width: 20px;
+    color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.interest-icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    background-color: lightblue;
+    border-radius: 25%;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: gray
+}
+
+.hobbies li {
+    width: 33%;
+}
+
+.download-cv {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px cornflowerblue;
+}
+
+.download-cv:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.download-cv:active {
+    text-decoration: underline;
+}
